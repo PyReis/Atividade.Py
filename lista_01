@@ -1,0 +1,189 @@
+-------------------------------------------------------------------------
+#Questão 1º)
+
+#Faça um Programa que peça as 4 notas bimestrais e mostre a média
+#from ast import For
+
+
+#print("---- Calculando as medias -----")
+#print("")
+#num1 = float(input('Notas do 1º bimestre: '))
+#print("-------------------------------------")
+#num2 = float(input('Notas do 2º bimestre: '))
+#print("-------------------------------------")
+#num3 = float(input('Notas do 3º bimestre: '))
+#print("-------------------------------------")
+#num4 = float(input('Notas do 4º bimestre: '))
+#print("")
+#media = (num1+num2+num3+num4)/4
+#print(f"A sua média foi: {media: .2f}" )
+
+-------------------------------------------------------------------------
+#Questão 2º)
+
+#Faça um Programa que leia 20 números inteiros e armazene-os num vetor. Armazene
+#os números pares no vetor PAR e os números IMPARES no vetor impar. Imprima os três
+#vetores.
+
+#vetor = []
+#PAR = []
+#IMPAR = []
+
+#for numero in range(0, 20):
+#    vetor.append(int(input("Digite os numeros:\t")))
+
+#for numero in range(0, 20):
+#    if vetor[numero] % 2 == 0:
+#       PAR.append(vetor[numero])
+#    else:
+#        IMPAR.append(vetor[numero])
+        
+#print("")
+#print("Vetor com 20 elementos:\t" + str(vetor))
+#print("")
+#print("Vetor com elementos pares:\t" + str(PAR))
+#print("")
+#print("Vetor com elementos impares:\t" + str(IMPAR))
+-------------------------------------------------------------------------
+# Questão 3º)
+#Faça um programa que leia um vetor de 8 posições e, em seguida, leia também dois
+#valores X e Y quaisquer correspondentes a duas posições no vetor. Ao final seu programa
+#deverá escrever a soma dos valores encontrados nas respectivas posições X e Y
+#tam = 8 
+#vetor_numero = [int] * tam
+#soma = 0
+#valor_pos_1 = 0
+#valor_pos_2 = 0  #
+#print("*-----Apenas valores inteios-----*")
+#print("")
+#for i in range(len(vetor_numero)):
+#    vetor_numero[i] = int(input("Digite o valor:\t"))
+#    #vetor_numero.append()
+#print("")
+#print(" Posicões que iram ser somadas")
+#print("")
+#valor_pos_1 = int(input("Digite a primeira posicao:\t"))
+#print("")
+#valor_pos_2 = int(input("Digite a segunda posicao:\t"))
+#
+#for i in range(len(vetor_numero)):
+#    if valor_pos_1 == i:
+#        soma = soma + vetor_numero[i]
+
+#    if valor_pos_2 == i:
+#        soma = soma + vetor_numero[i]
+#soma  = vetor_numero[valor_pos_1] + vetor_numero[valor_pos_2]
+#print("")
+#print("A soma das posicoes", valor_pos_1,"º e ", valor_pos_2,"º  é :\t" , soma)
+-----------------------------------------------------------------------
+# Questão 4º)
+#Foram anotadas as idades e alturas de 30 alunos. Faça um Programa que determine
+#quantos alunos com mais de 13 anos possuem altura inferior à média de altura desses
+#alunos.
+
+# aqui testei apenas para 16 alunos
+#idades = [10, 15, 9, 22, 13, 12, 14, 17, 18, 19, 20, 21, 11, 8 , 7, 5]
+#alturas = [1.60, 1.35, 1.76, 1.98, 1.77, 1.66, 1.80, 1.30, 1.50, 1.65,
+#           1.90, 1.70, 1.45, 1.69, 1.59, 1.52]
+
+#mediaAltura = sum(alturas)/len(alturas)
+
+#quantidadeAlunos = 0
+#for i in range(0, len(idades)):
+#    if idades[i] > 13 and alturas[i] < mediaAltura:
+#        quantidadeAlunos = quantidadeAlunos + 1
+# Botei apenas para vizualizar as idades e altura para conferir o calculo        
+#print(" Idades :", idades)
+#print("")
+#print(" Alturas :", alturas)
+#print("")
+#print (str(quantidadeAlunos) +
+#       " alunos que possuem mais de 13 anos com altura inferior a media de altura dos alunos")
+
+-------------------------------------------------------------------------
+# Questão 5º)
+# Leia um vetor de 10 posições. Contar e escrever quantos valores pares ele possui.
+
+#vetor = []
+#PAR = []
+#IMPAR = []
+#cont = 0
+#for numero in range(0, 10):
+#    vetor.append(int(input("Digite os numeros:\t")))
+
+#for numero in range(0, 10):
+#    if vetor[numero] % 2 == 0:
+#        PAR.append(vetor[numero])
+        
+#        cont = cont + 1
+#    else:
+#        IMPAR.append(vetor[numero])
+        
+#print("")
+#print("Todos os elementos digitados:\t" + str(vetor)) #aqui queria ter uma visão dos valores que digitei
+#print("")
+#print("Tem ", cont,"numeros pares ")
+#print("")
+#print("Vetor com elementos pares:\t" + str(PAR))
+#print("")
+-------------------------------------------------------------------------
+# Questão 6º)
+
+#Fazer um programa para ler 5 valores e, em seguida, mostrar a posição onde se
+#encontram o maior e o menor valor.
+
+
+#i = 0
+#lista_valor = []
+#valor_pos_1 = 0
+##print(" ------Digite 5 numeros reais------ ")
+#print("")
+#tam = 5
+#vetor_numero = [float] * tam
+#for i in range(len(vetor_numero)):
+#    vetor_numero[i] = float(input(" Digite o valor: "))
+#print("") 
+#print(" Posições dos valores :")   
+#for j in range(len(vetor_numero)):
+#    print(" Valor da posicao", j, ":", vetor_numero[j])
+
+#valor_maior = vetor_numero[0]  # 1
+#valor_menor = vetor_numero[0]  # 1
+#print("")
+#print(" Os valores encontrados: ")
+#print("")
+#for i in range(len(vetor_numero)):
+#    if vetor_numero[i] > valor_maior:
+#        valor_maior = vetor_numero[i]
+
+#    if vetor_numero[i] < valor_menor:
+#        valor_menor = vetor_numero[i]
+
+#print(" O maior valor é: ", valor_maior)
+#print(" O menor valor é: ", valor_menor)
+-------------------------------------------------------------------------
+#Questão 7º)
+#Escreva um programa em para ler um vetor X de 10 elementos inteiros.
+#Logo após copie os elementos do vetor X para um vetor Y fazendo 
+#com que o 1o. elemento de X seja copiado para o 10o.
+#De Y, o 2o. de X para o 9o. de Y e assim sucessivamente.
+#Após o término da cópia, imprimir o vetor Y
+
+#import random
+#from typing import List
+#numeros = []
+
+#for lista in range(0,10): # Para gerar 10 numeros aleatorios 
+#    numero_aleatorio = random.randrange(0,100)
+#    numeros.append(numero_aleatorio)
+#numerosy = numeros[:]    
+#print("") # Para deixar mais bonito o que vai ser mostrado
+#print("*---------------------------------------*")
+#print(" Lista X :")
+#print("" ,numeros)
+#print("*---------------------------------------*") 
+#numeros.reverse() # Isso foi utilizado para inverter a lista 
+#print(" Lista y  :")
+#print("" ,numeros) 
+#print("*---------------------------------------*")
+-------------------------------------------------------------------------
